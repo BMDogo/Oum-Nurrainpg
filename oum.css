@@ -1,0 +1,316 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('oum7.jpg');
+    background-size: 100vw 100vh;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    
+}
+#nav{
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    transition: 2s ease;
+}
+#nav:hover{
+    background-color: #ff95a9;
+    border: 2px solid white;
+    font-weight: bold;
+}
+#on{
+    color: red;
+    font-weight: bold;
+    font-family: "roboto" serif;
+    
+    animation-name: BMDogo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+/*#on:hover{
+    color: #09666a;
+}*/
+#offcanvasDarkNavbarLabel{
+    color: red;
+    font-weight: bold;
+    animation-name: BMDogo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+.content{
+    display: none;
+    flex-grow: 3;
+}
+#home-content{
+    display: grid;
+   
+}
+#home-content, #about-content, #services-content, #perfume-content, #soap-content, #fashion-content, #spices-content{
+  margin-top: 70px;
+  color: black;
+  Padding-bottom: 200px;
+}
+#services-content{
+    margin-top: 79px;
+}
+#oum1{
+    width: 150px ;
+    height: 150px ;
+    margin-top: 0;
+    margin-left:30%;
+    border-radius: 100px;
+    Border: 2px outset black;
+}
+#home-content{
+    margin: 0;
+    padding: 0;
+}
+
+#home-content h1{
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 30%;
+  Margin-left: 5%;
+    color: magenta;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#home-content h1 span{
+    font-weight: bold;
+    transition: 2s ease;
+}
+span:hover{
+    color: black;
+}
+.hd1{
+    width: 77%;
+    height: 100%;
+    background-color: rgba(255, 245, 200, 0.6);
+    border: 2px inset white;
+    border-radius: 50px 50px 0 0;
+    margin-left: 11%;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 6px 6px #6d5649;
+    margin-top: -0.5%;
+}
+.hd1 h3{
+    color: black;
+    opacity: 1;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.hd1 p{
+    font-size: 20px;
+    color: #190d4f;
+    margin: 0 10px;
+    font-family: "Bona Nova SC", serif;
+    
+}
+footer{
+    margin-top: auto;
+    justify-items: Center;
+    align-items: center;
+    background-color: rgba(180, 120, 190, 0.6);
+    width: 100% ;
+    position: fixed;
+    bottom: 0;
+    height: 15%;
+    border-top: 2px solid white;
+    
+    /*line-height: 1.2; */
+}
+footer p{
+    font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: black;
+    padding: 0;
+    margin-top: 5px ;
+    margin-bottom: -3px;
+}
+footer p span{
+    font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  color: #c9006b;
+}
+#bmd{
+    color: red;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  animation-name: BMDogo;
+  animation-duration: 4s ;
+  animation-iteration-count: infinite;
+ } 
+ 
+  @keyframes BMDogo{
+      25% { color: black;}
+      50% {color: yellow;}
+      75% {color:white;}
+      100% {color: green;}
+  }
+.ad1{
+    width: 77%;
+    height: 100%;
+    background-color: rgba(255, 245, 200, 0.6);
+    border: 2px inset white;
+    border-radius: 50px 50px 0 0;
+    margin-left: 11%;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 6px 6px #6d5649;
+    margin-top: 35%;
+}
+.ad1 h3{
+    color: black;
+    opacity: 1;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.ad1 p{
+    font-size: 20px;
+    color: #190d4f;
+    margin: 0 10px;
+    font-family: "Bona Nova SC", serif;
+    margin-bottom: -3px;
+    
+}
+.ad1 p span{
+    font-size: 25px;
+    color: black;
+    margin: 0 10px;
+    font-family: "Bona Nova SC", serif;
+    
+}
+.sbtn{
+    margin-top: 5%;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+.sbtn1{
+    margin-top: -1.5%;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+.sbtn #sbtn{
+    font-weight: bold;
+    border: 2px outset white;
+    box-shadow: 5px 5px #a15e5e;
+    transition: 2s ease;
+    background-color: #6a0923;
+}
+
+.sbtn #sbtn:hover{
+    background-color: #6a0923;
+} */
+.dpimg{
+    margin-top: 2%;
+    justify-content: center;
+    display: flex auto;
+    gap: 10px;
+}
+.pimg{
+    width: 150px;
+    height: 140px;
+    margin-left: 5%;
+    margin-top: 5%;
+    Padding-bottom: 10px;
+    border-radius: 20px;
+    border: 2px inset black;
+}
+#pbtn, #sbtn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border: 2px outset white;
+    box-shadow: 5px 5px #a15e5e;
+    transition: 2s ease;
+    background-color: #6a0923;
+}
+.form{
+    display: none;
+}
+.form{
+    width: 80%;
+    border-radius: 30px;
+    border: 3px outset black;
+    box-shadow: 6px 6px #a15e5e;
+    margin: 10%;
+    padding: 10px;
+}
+.form .dform{
+    margin: 0 10px;
+}
+.visit{
+    width: 77%;
+    height: 100%;
+    background-color: rgba(255, 245, 200, 0.6);
+    border: 2px inset white;
+    border-radius: 0 0 50px 50px;
+    margin-left: 11%;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 6px 6px #6d5649;
+    margin-top: -0.5%;
+}
+.visit h3{
+    color: black;
+    opacity: 1;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+
+.form-group {
+margin-bottom: 20px;
+}
+
+.form-control {
+width: 100%;
+height: 40px;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.form-control:focus {
+border-color: #aaa;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* .btn {
+width: 100%;
+height: 40px;
+padding: 10px;
+font-size: 16px;
+border: none;
+border-radius: 5px;
+background-color: #dc3545;
+color: #fff;
+cursor: pointer;
+}
+
+.btn:hover {
+background-color: #c82333;
+}
+
+.btn:focus {
+outline: none;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
